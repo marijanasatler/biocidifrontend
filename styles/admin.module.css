@@ -1,0 +1,72 @@
+.adminbgd {
+    background: linear-gradient(-10deg, #8860d8, #23a6d5, #23d5ab ,darkgreen);
+background-size: 200% 200%;
+    animation: gradient 20s ease infinite;
+height: auto;
+color: white;
+
+
+padding: 1%;
+min-height: 55vh;
+margin-bottom: 1%;
+  }
+
+  .adminbgd h2{
+    text-transform: uppercase;
+  }
+
+  .adminbgd h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .adminContainer{
+      margin: 0 2%;
+  }
+  .adminGrid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+      
+     
+  }
+  .adminColumn{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    
+      
+  }
+  
+  .nabavkepadding{
+    margin: 2%;
+  }
+  @media (max-width: 1500px) {
+    .adminGrid{ grid-template-columns:1fr 1fr;}
+
+  }
+  @media (max-width: 1200px) {
+    .adminColumn{ grid-template-columns:1fr;
+    }
+.nabavkepadding{
+ 
+  border-top: solid white 2px;
+  padding-top: 4%;
+}
+    
+  }
+
+  @media (max-width: 1000px) {
+    .adminGrid{ grid-template-columns:1fr;}
+    
+  }

@@ -1,0 +1,169 @@
+.navigationstyle{
+
+  padding: 5px 1%;
+  margin-bottom: 1%;
+  background: linear-gradient(-10deg, #8860d8, #23a6d5, #23d5ab ,darkgreen);
+
+  background-size: 200% 200%;
+      animation: gradient 20s ease infinite;
+  height: auto;
+  /*  box-shadow: rgb(38, 57, 77,.6) 0px 20px 15px -10px;
+     box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;*/
+  
+    }
+
+    .footerstyles{
+      background: linear-gradient(-10deg, #8860d8, #23a6d5, #23d5ab ,darkgreen);
+
+      background-size: 200% 200%;
+          animation: gradient 20s ease infinite;
+      height: auto;
+      padding: 1%;
+      color: white;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+.navigationbar{
+
+    text-align:right;
+    display:inline-flex;
+    justify-content:flex-end;
+
+}
+
+.navlink{
+  /*  transition: all .2s ease-in-out;*/
+    cursor: pointer;
+  
+    color: white;
+text-transform: uppercase;
+}
+.navlink:hover{
+
+ /* -webkit-transform: scale(1.05);
+  transform: scale(1.05); */
+color: #8860d8;
+
+}
+
+
+.footer{
+   display:flex;
+   align-items:flex-start;
+   justify-content:flex-start;
+   flex-wrap: wrap;
+   list-style:none;
+   padding:0;  
+   text-align:left;
+   margin:0;
+
+}
+.footer a{
+
+    transition: all .1s ease-in-out;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.footer a:hover{
+  /*  -webkit-transform: scale(1.05);
+    transform: scale(1.05);*/
+  
+    color: #8860d8;
+ 
+}
+
+.zavodfooter{
+    color: white;
+    text-decoration: none; 
+     transition: all .2s ease-in-out;
+ 
+
+}
+.zavodfooter:hover{
+    text-decoration: none;
+    color: white;
+    /*   -webkit-transform: scale(1.05);
+    transform: scale(1.05); */
+
+    color: #8860d8;
+
+}
+
+
+.zavodLogoContainer{
+position:relative;
+width:220px;
+
+}
+
+
+
+.zavodLogo{
+ 
+padding-bottom: 2%;
+
+background-color:white;
+border-bottom-right-radius:50%;
+border-bottom-left-radius: 50%;
+    top:-1.8%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+z-index: 100;
+position: absolute;
+
+}
+
+.footergrid{
+  display:flex;
+  justify-content:space-between;
+  max-width:100vw;
+ }
+ 
+
+
+
+@media (max-width: 1000px) {
+  .navigationbar {
+      text-align: left;
+ justify-content: flex-start;
+ margin-left: 3%;
+ margin-bottom: 2%;
+  }
+  .zavodLogoContainer{
+    width: 200px;
+  }
+   
+}
+
+
+
+@media (max-width: 800px) {
+ 
+  .zavodLogoContainer{
+    width: 180px;
+  }
+   
+}
+
+@media (max-width: 500px) {
+ 
+  .zavodLogoContainer{
+    width: 140px;
+  }
+   
+}
