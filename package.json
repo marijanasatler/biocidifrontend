@@ -1,0 +1,45 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "html-entities": "^2.3.3",
+    "install": "^0.13.0",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "next": "11.1.1",
+    "npm": "^8.15.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+  
+    "react-cookie-consent": "^7.5.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-google-login": "^5.2.2",
+    "react-player": "^2.10.1",
+    "react-render-html": "^0.6.0",
+    "react-share": "^4.4.0",
+    "react-slideshow-image": "^4.0.3",
+    "reactstrap": "^9.1.2",
+    "suneditor": "^2.43.14",
+    "suneditor-react": "^3.4.1"
+  },
+  "devDependencies": {
+    "source-map-loader": "^3.0.0",
+    "webpack": "^5.73.0"
+  }
+}
